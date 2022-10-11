@@ -1,0 +1,77 @@
+#George Raatpalu
+#11.10.22
+#harjutus02
+
+
+#pitsa
+#4.73
+import math
+
+
+
+#kütusekulu
+a = int(input("sisesta tangitud kütus. "))
+b = int(input("sisesta läbitud kilomeetrid: "))
+print("vastus",a/(b/100))
+
+
+
+
+#arvusüsteemid
+b = int(input("sisesta täisarv: "))
+print("2ndsysteemis:", bin(b))
+print("16ndsysteemis:", hex(b))
+
+
+
+
+
+#ajateisendus
+aeg = int(input("Sisesta minutid: "))
+tunnid = aeg//60#täisarvuline jagamine
+minutid = aeg % 60 #jääk
+print("vastus",minutid,tunnid)
+print("vastus",minutid,tunnid)
+
+ 
+ 
+ 
+ 
+#hypotenuus
+a,b=16,9
+c = round(math.sqrt(pow(a,2) + b**2),2)
+print("kolmnurga hüpo on:",c)
+
+
+
+#rulluisutaja
+kiirus = 29.9
+aeg = 24
+vastus = round(kiirus/60*aeg,2)
+print("Sportlane jõuab",vastus,"km")
+
+
+#pitsa
+hind = 12.9
+tip = 0.1
+kogus = 3
+summa = (hind+hind*tip)/kogus
+print(kogus,"iga tyyp maksab",summa,"eurot")
+
+
+#toote hind 
+hind = 36.75
+ale = 0.4
+kogus = 3
+summa = round((hind-hind*ale)*3,2)
+print(kogus,"toote summa on",summa,"eurot")
+
+
+
+
+
+
+#kolmnurga ümbermõõt
+a,b,c = 5,5,5
+p = a+b+c
+print("kolmnurga ümbermõõt on: ",p)
