@@ -1,31 +1,10 @@
 #George Raatpalu
 #11.10.22
-#harjutus03
+#harjutus04
 
 
-
-#palindroom
-
-
-
-
-
-#tundide ajad
-algus = "8:30"
-lopp = "14:15"
-
-hh1,mm1 = algus.split(":")
-minutid1 = int(hh1)*60+int(mm1)
-hh2,mm2 = lopp.split(":")
-minutid2 = int(hh2)*60+int(mm2)
-
-minutid = minutid2-minutid1 # ajavahe
-hh = minutid//60#täisarvuline jagamine
-mm = minutid%60#jääk
-
-
-
-print(f"Ajaline vahe on {hh}:{mm}")
+#juubel
+ vanus = "09.08.06"
 
 
 
@@ -34,34 +13,31 @@ print(f"Ajaline vahe on {hh}:{mm}")
 
 
 
+#matemaatika
+nr1,nr2 = 8,6
+tehe = input("Vali tehe (* / + -):")
+
+if c=="*":
+    vastus = a * b
+elif == a/b
+    vastus = a+b
+elif c=="+"
+    vastus = a-b
+   
+
+print(f"{nr1}{tehe}{nr2}={vastus}")
 
 
+#kas on ruut
+a = int(input("Sisesta külg 1: "))
+b = int(input("Sisesta külg 2: "))
 
+if a==b:
+      print(f"{a} ja {b} moodustavad ruudu")
+else:
+      print(f"{a} ja {b} moodustavad ristküliku")
+          
 
-
-
-#emaili kontroll true/false
-email = input ("sisesta email kontrollimisks; ")
-print("@" in email)
-
-
-
-
-#vandumine - teksti sisestamine 
-v = input("Vannu sia 'Kurat küll!': ")
-print(v.replace("kurat","*****"))
-
-
-nimi=input("sisesta nimi: ")
-puh_nimi = nimi.strip().capitalize()
-print("Tere,", puh_nimi+"!")
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
