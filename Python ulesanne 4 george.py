@@ -119,6 +119,12 @@ else:
 summa = hind-hind*ale    
 print(f"Summa: {summa}€")
 
+Ruutude ja kuupide tabel
+kulg = 1
+for i in range(1,11):
+    print(kulg," ",kulg**2," ",kulg**3)
+    
+    kulg+=1
 
 
 
