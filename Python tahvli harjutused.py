@@ -30,16 +30,19 @@ else: print("viimases bussis on inimesi {jaak}")
 
 
 
+
 a=int(input("Tõuse ja sära "))
 for i in range(a):
     print("Tõuse ja sära")
       
       
 #Täringud
-int(input("Sisestage täringute arv" ))
+a=int(input("Sisestage täringute arv" ))
+
     
       
       
+
 
 
 
@@ -50,14 +53,25 @@ i = 0
 while i <a:
     i += 1
     
-    nisuterad*=2
+nisuterad*=2
 print(nisuterad)
 
     
 
-    
 
 
+
+
+fail = open("rebased.txt",encoding="UTF-8")
+
+vastuvoetud=[]
+for rida in fail:
+aastad = [2011,2012,2013,2014,2015,2016,2017,2018,2019]
+    vastuvoetud.append(int(rida))
+aasta = int(input("Mis aastat tahad? "))
+index = aastad 
+
+print(vastuvoetud[index])
 
 
           
