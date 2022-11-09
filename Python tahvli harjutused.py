@@ -30,6 +30,31 @@ else: print("viimases bussis on inimesi {jaak}")
 
 
 
+a=int(input("Tõuse ja sära "))
+for i in range(a):
+    print("Tõuse ja sära")
+      
+      
+#Täringud
+int(input("Sisestage täringute arv" ))
+    
+      
+      
+
+
+
+#Male
+nisuterad=0.5
+a=int(input("Sisetage täisarv "))
+i = 0
+while i <a:
+    i += 1
+    
+    nisuterad*=2
+print(nisuterad)
+
+    
+
     
 
 
