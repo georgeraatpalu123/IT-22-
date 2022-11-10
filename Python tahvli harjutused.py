@@ -37,7 +37,14 @@ for i in range(a):
       
       
 #Täringud
-a=int(input("Sisestage täringute arv" ))
+import random
+x=int(input("Täringute arv "))
+täring1 = random.randint(1, 6)
+täring2 = random.randint(1, 6)
+täring3 = random.randint(1, 6)
+täring4 = random.randint(1, 6)
+täring5 = random.randint(1, 6)
+print(täring1,2,3,4,5)
 
     
       
