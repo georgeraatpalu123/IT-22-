@@ -108,6 +108,11 @@ for rida in file:
     print(rida)
 
 
+print("Osta ja sa ei kahetse!")
+a=(int(input("Mitu korda soovite reklaamlauset kuvada? ")))
+b=input("Mida soovite kuvada ")
+for i in range(a):
+    print(b.upper())
 
 
 
