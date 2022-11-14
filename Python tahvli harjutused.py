@@ -68,7 +68,7 @@ print(nisuterad)
 
 
 
-
+#Ülikooli vastuvõetud
 fail = open("rebased.txt",encoding="UTF-8")
 
 vastuvoetud=[]
