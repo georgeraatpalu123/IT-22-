@@ -113,6 +113,24 @@ a=(int(input("Mitu korda soovite reklaamlauset kuvada? ")))
 b=input("Mida soovite kuvada ")
 for i in range(a):
     print(b.upper())
+    
+    
+#Õunamahla tegemine
+
+def mahlapakkide_arv(a):
+    a = round(a*0.4/3)
+    return a
+c=float(input("Sisestage õunte kogus kilogrammides: "))
+print(mahlapakkide_arv(c))
+       
+       
+#Peo eelarve        
+def eelarve
+
+input("Mitu inimest on kutsutud?")
+
+    
+
 
 
 
