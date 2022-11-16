@@ -125,9 +125,29 @@ print(mahlapakkide_arv(c))
        
        
 #Peo eelarve        
-def eelarve
+c=int(input("Mitu inimest on kutsutud? "))
+x=int(input("Mitu inimest tuleb? "))
+def eelarve(a):
+    b=a*10+55
+    return b
 
-input("Mitu inimest on kutsutud?")
+print(eelarve(c))
+print(eelarve(x))
+
+
+#Tervitused mõtisklusega
+def tervitus(a):
+        print('"Võõrustaja:"Tere!"')
+        print(f"Täna {a}.kord tervitada,mõtiskleb võõrustaja")
+        print('"Külaline:"Tere,suur tänu kutse eest!"')
+x=int(input("Sisestage külaliste arv"))        
+for i in range(x):
+    tervitus(i+1)
+
+        
+
+
+
 
     
 
