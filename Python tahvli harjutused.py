@@ -73,7 +73,7 @@ fail = open("rebased.txt",encoding="UTF-8")
 
 vastuvoetud=[]
 for rida in fail:
-aastad = [2011,2012,2013,2014,2015,2016,2017,2018,2019]
+    aastad = [2011,2012,2013,2014,2015,2016,2017,2018,2019]
     vastuvoetud.append(int(rida))
 aasta = int(input("Mis aastat tahad? "))
 index = aastad 
