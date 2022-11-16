@@ -143,6 +143,19 @@ def tervitus(a):
 x=int(input("Sisestage külaliste arv"))        
 for i in range(x):
     tervitus(i+1)
+    
+#   
+def minu(a):
+    input("Sisesta kuupäeva kujul ")   
+kuud = ["","jaan,"veeb"]
+    return kuud[a]
+#kuupäev
+def ilus(b):
+    print(f"11.{u} 2022")
+kp=input"Lisa kp:")
+p,k,a=kp.split(".")
+ilus(minu(int(k)))
+
 
         
 
