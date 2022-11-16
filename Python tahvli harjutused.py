@@ -144,7 +144,20 @@ x=int(input("Sisestage külaliste arv"))
 for i in range(x):
     tervitus(i+1)
     
-#   
+
+raha = []
+a=input("mis on tekst:")
+b=open(a,"r")
+
+for i in b:
+    raha.append(int(i.strip("\n")))
+def münt(c):
+    for i in c:
+        c[:] = [x for x in c if x <= 5]
+    print(f"müntide arv on {sum(c)}")
+münt(raha)
+
+#Kuupaev   
 def minu(a):
     input("Sisesta kuupäeva kujul ")   
 kuud = ["","jaan,"veeb"]
