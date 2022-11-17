@@ -1,4 +1,4 @@
-#juubel
+#ma ei oska oma girhubist välja logida oled kumm peast !!!
 sp = "09.08.2006"
 aasta =  2022
 p,k,a =sp.split(".")
