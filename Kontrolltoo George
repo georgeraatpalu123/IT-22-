@@ -1,0 +1,33 @@
+#George Raatpalu
+#Kontrolltöö
+#23.11.22
+
+def raha():
+    b=int(input("EEK>EUR(1), EUR>EEK(2): "))
+    a=int(input("Palju raha on vaja vahetada? "))
+    if b==1:
+        vastus=a*0.6
+        print(vastus)
+    else:
+        vastused=a*16
+        print(vastused)
+            
+
+         
+       
+        
+        
+        
+        
+    
+    
+
+    #EURO=euro*16
+    #c=eek*0.16
+    print()
+    
+raha()
+
+
+with open('readme.txt') as f:
+    lines = f.readlines()
