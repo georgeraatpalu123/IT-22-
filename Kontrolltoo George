@@ -12,22 +12,11 @@ def raha():
         vastused=a*16
         print(vastused)
             
-
-         
-       
         
-        
-        
-        
-    
-    
-
-    #EURO=euro*16
-    #c=eek*0.16
-    print()
-    
-raha()
-
-
-with open('readme.txt') as f:
-    lines = f.readlines()
+        with open("pythongeorge.txt", "w") as f:
+            f.write(str(b))
+            f.write("\n")
+            f.write(str(a))
+            f.write("\n")
+            f.write(str(vastused))
+            
